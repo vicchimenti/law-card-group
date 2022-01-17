@@ -51,6 +51,27 @@
 
 	</div>
 
+	<t4 type="content" name="Heading 2" output="selective-output" modifiers="" process-format="true" format="<div class='card'>
+		
+		<a href=&quot;<t4 type='content' name='Link 2' output='linkurl' modifiers='nav_sections' />&quot; class='card-link'>
+			<img src='<t4 type='content' name='Image 2' output='imageurl' />' class='card-img-top p-0 m-0' alt&quot;Image for <t4 type='content' name='Heading 2' output='normal' modifiers='striptags,htmlentities' />&quot;>
+		</a>
+
+		<div class='card-body standardContent'>
+			<a href=&quot;<t4 type='content' name='Link 2' output='linkurl' modifiers='nav_sections' />&quot; class='card-link'>
+				<h3 class='card-title'><t4 type='content' name='Heading 2' output='normal' modifiers='striptags,htmlentities' /></h3>
+			</a>
+			<t4 type='content' name='Text 2' output='selective-output' modifiers='medialibrary,nav_sections' process-format='true' format='<div>$value</div>' />
+		</div>
+	
+		<div class='card-footer bg-transparent'>
+			<div class='cardButton standardContent'>
+				<a href=&quot;<t4 type='content' name='Link 2' output='linkurl' modifiers='nav_sections' />&quot;><t4 type='content' name='Link 2' output='linktext' modifiers='nav_sections' /> <span class='sr-only'>about <t4 type='content' name='Heading 2' output='normal' modifiers='striptags,htmlentities' /></span></a>
+			</div>
+		</div>
+
+	</div>">
+
 	<t4 type="content" name="Heading 3" output="selective-output" modifiers="" process-format="true" format="<div class='card'>
 		
 		<a href=&quot;<t4 type='content' name='Link 3' output='linkurl' modifiers='nav_sections' />&quot; class='card-link'>
